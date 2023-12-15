@@ -41,6 +41,10 @@ body{
     color: #2e2f42;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .link-style{
     font-weight: 500;
     font-size: 16px;
