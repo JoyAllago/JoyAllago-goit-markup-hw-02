@@ -18,11 +18,12 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #434455;
-    background-color: var(--background-color);
+    background-color: var(--white);
 }
+
  /* logo */
 
-.logo{
+.logolist{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -32,7 +33,7 @@ body{
     text-decoration: none; 
 }
 
-.weblogo{
+.web{
     color: #4d5ae5; /* Css variable for color */
 }
 
