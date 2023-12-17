@@ -53,7 +53,7 @@ body{
     color: var(--navy-blue);
 }
 
-.link{
+.Portfolio-link{
     text-decoration: none;
 }
 
@@ -88,13 +88,13 @@ body{
     letter-spacing: 0.02em;
 }
 
-.contact-color {
+.contacts-link{
     color: #434455;
     text-decoration: none;
 }
 
-.contact-color:hover,
-.contact-color:focus{
+.contact-link:hover,
+.contact-link:focus{
     color: #404bbf;
 }
 
