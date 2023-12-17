@@ -57,6 +57,11 @@ body{
     text-decoration: none;
 }
 
+.Studio-style :hover,
+.Studio-style :focus{
+    color: var(--ocean);
+}
+
 
 
 /* logo */
