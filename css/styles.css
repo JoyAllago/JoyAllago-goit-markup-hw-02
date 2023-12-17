@@ -45,17 +45,19 @@ body{
     list-style: none;
 }
 
-.link{
-    text-decoration: none;
-}
-
-.Studio-link{
+.Studio-style{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
+
+.link{
+    text-decoration: none;
+}
+
+
 
 /* logo */
 
