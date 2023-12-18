@@ -88,13 +88,13 @@ body{
     letter-spacing: 0.02em;
 }
 
-.linkpage-link{
+.contacts-color{
     color: #434455;
     text-decoration: none;
 }
 
-.linkpage-link:hover,
-.linkpage-link:focus{
+.contact-color:hover,
+.contact-color:focus{
     color: #404bbf;
 }
 
