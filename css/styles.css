@@ -101,7 +101,7 @@ body{
 /* Section 1 */
 
 .first-section{
-    background-color: #2e2f42;
+    background-color: var(--navy-blue)
 }
 
 .first-section-header{
@@ -113,14 +113,13 @@ body{
 }
 
 .first-section-button{
-    background-color: #4d5ae5;
-    font-family: Roboto, sans-serif;
-    color: #434455;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.64px;
-    line-height: 0.04em;
-    color: #fff;
+    color: var(--white);
+    background-color: var(--ocean);
     cursor: pointer;
 }
 
