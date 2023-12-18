@@ -105,12 +105,11 @@ body{
 }
 
 .first-section-header{
-    color: #fff;
     font-size: 56px;
+    line-height: 1.07;
     text-align: center;
-    letter-spacing: 1.12px;
-    line-height: 60px;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--white);
 }
 
 .first-section-button{
