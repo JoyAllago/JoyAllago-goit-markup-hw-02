@@ -93,8 +93,8 @@ body{
     text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus{
+.contacts-link:hover,
+.contacts-link:focus{
     color: #404bbf;
 }
 
