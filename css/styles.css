@@ -50,7 +50,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .list-item:hover,
@@ -58,13 +58,25 @@ body{
     color: #404bbf;
 }
 
-
-
-/* logo */
-
 .link {
     text-decoration: none;
 }
+
+.link-style {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .link-style:hover,
+  .link-style:focus {
+    color: #404BBF;
+  }
+  
+
+/* logo */
+
 
 .address-style{
     font-style: normal;
