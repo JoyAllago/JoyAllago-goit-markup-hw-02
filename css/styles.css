@@ -45,7 +45,7 @@ body{
     list-style: none;
 }
 
-.list-item{
+.link-style{}
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -53,8 +53,8 @@ body{
     color: #2e2f42;
 }
 
-.list-item:hover,
-.list-item:focus {
+.link-style:hover,
+.link-style:focus:focus {
     color: #404bbf;
 }
 
