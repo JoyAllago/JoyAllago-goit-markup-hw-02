@@ -45,28 +45,24 @@ body{
     list-style: none;
 }
 
-.Studio-link{
+.list-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
-.Portfolio-link{
-    text-decoration: none;
-}
-
-.Studio-link :hover,
-.Studio-link :focus{
-    color: var(--ocean);
+.list-item:hover,
+.list-item :focus{
+    color: #404bbf;
 }
 
 
 
 /* logo */
 
-.link{
+.link {
     text-decoration: none;
 }
 
