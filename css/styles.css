@@ -52,7 +52,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    text-decoration: none;
 }
 
 .link-style:hover,
@@ -64,7 +63,7 @@ body{
     color: var(--ocean);
 }
 
-.link {
+.link{
     text-decoration: none;
 }
   
@@ -79,7 +78,7 @@ body{
     letter-spacing: 0.02em;
 }
 
-.contact{
+.contacts{
     color: var(--slate);
     text-decoration: none;
 }
@@ -88,8 +87,8 @@ body{
     text-decoration: none;
 }
 
-.contact-color:hover,
-.contact-color:focus{
+.contacts-color:hover,
+.contacts-color:focus{
     color: var(--ocean);
 }
 
