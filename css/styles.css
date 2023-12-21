@@ -205,8 +205,9 @@ body{
     letter-spacing: 0.02em;
 }
 
-.inside-logo{
-    color: #f4f4fd;
+
+.studiologo2{
+    color: var(--cloud);
 }
 
 .Qoutes{
