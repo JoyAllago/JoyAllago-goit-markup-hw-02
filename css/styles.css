@@ -210,5 +210,5 @@ body{
 }
 
 .Qoutes{
-    color: #f4f4fd;
+    color: var(--cloud);
 }
