@@ -9,6 +9,7 @@
         --cloud: #f4f4fd;
         --white: #ffffff;
         --dairy: #fcfcfc;
+        --gray: #2e2f2e;
 }
 
 body{
@@ -53,9 +54,9 @@ body{
     color: #2e2f42;
 }
 
-.link-style:hover,
-.link-style:focus{
-    color: #404bbf;
+.address-style:hover,
+.address-style:focus{
+    color: var(--gray);
 }
 
 .link {
