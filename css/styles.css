@@ -213,3 +213,7 @@ body{
 .Qoutes{
     color: var(--cloud);
 }
+
+.services{
+    color: var(--navy-blue);
+}
