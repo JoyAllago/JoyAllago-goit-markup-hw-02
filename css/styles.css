@@ -9,7 +9,6 @@
         --cloud: #f4f4fd;
         --white: #ffffff;
         --dairy: #fcfcfc;
-        --gray: #2e2f2e;
 
 }
 
@@ -57,7 +56,7 @@ body{
 
 .link-style:hover,
 .link-style:focus{
-    color: #404bbf;
+    color: var(--navy-blue);
 }
 
 .link {
