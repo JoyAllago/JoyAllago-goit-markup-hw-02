@@ -10,6 +10,7 @@
         --white: #ffffff;
         --dairy: #fcfcfc;
         --gray: #2e2f2e;
+
 }
 
 body{
@@ -54,13 +55,17 @@ body{
     color: #2e2f42;
 }
 
-.address-style:hover,
-.address-style:focus{
-    color: var(--gray);
+.link-style:hover,
+.link-style:focus{
+    color: #404bbf;
 }
 
 .link {
     text-decoration: none;
+}
+
+.link-active{
+    color: #404bbf;
 }
 
 .link-style {
