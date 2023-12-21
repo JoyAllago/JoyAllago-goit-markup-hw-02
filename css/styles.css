@@ -73,6 +73,10 @@ body{
     letter-spacing: 0.02em;
 }
 
+.contact{
+    color: var(--slate);
+    text-decoration: none;
+}
 .contacts-color{
     color: #434455;
     text-decoration: none;
@@ -80,7 +84,7 @@ body{
 
 .contact-color:hover,
 .contact-color:focus{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 /* Section 1 */
