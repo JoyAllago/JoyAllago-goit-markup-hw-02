@@ -66,6 +66,10 @@ body{
 
 /* logo */
 
+.link{
+    text-decoration: none;
+}
+
 .linkpage{
     font-weight: 500;
     line-height:  1.5;
