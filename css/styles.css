@@ -25,7 +25,7 @@ body{
  /* logo */
 
 .logo{
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -171,6 +171,7 @@ body{
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -196,7 +197,7 @@ body{
 /* footer style */
 
 .footer-style {
-    background-color: #2e2f422e;
+    background-color: var(--navy-blue)
 }
 
 .footer-paragraph {
@@ -205,6 +206,6 @@ body{
     letter-spacing: 0.02em;
 }
 
-.footerinside-logo{
+.inside-logo{
     color: #f4f4fd;
 }
