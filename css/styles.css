@@ -51,12 +51,12 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--navy-blue);
 }
 
 .link-style:hover,
 .link-style:focus{
-    color: var(--navy-blue);
+    color: var(--ocean);
 }
 
 .link {
@@ -64,7 +64,7 @@ body{
 }
 
 .link-active{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .link-style {
