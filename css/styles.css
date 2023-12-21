@@ -37,7 +37,7 @@ body{
     color: #4d5ae5; /* Css variable for color */
 }
 
-.insidelogo{
+.inside-logo{
     color: #2e2f42;
 }
 
@@ -50,7 +50,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .list-item:hover,
