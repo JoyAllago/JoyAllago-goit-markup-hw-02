@@ -53,10 +53,8 @@ body{
     color: #2e2f42;
 }
 
-.link-style:hover{
-    color: #404bbf;
-}
-.link-style:focus {
+.link-style:hover,
+.link-style:focus{
     color: #404bbf;
 }
 
