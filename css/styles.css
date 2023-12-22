@@ -220,9 +220,6 @@ body{
 
 /* Porfolio pages */
 
-.porfolio-page{
-    color: var(--white);
-}
 
 .filter-button{
     font-family: Roboto, sans-serif;
@@ -243,6 +240,14 @@ body{
 
 .active-filter{
     color: var(--white);
+}
+
+.porfolio-page{
+   list-style: none;
+}
+
+.porfolio-color{
+    text-decoration: none;
 }
 
 .portfolio-services{
