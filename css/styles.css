@@ -31,6 +31,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .logolist{
@@ -193,30 +194,7 @@ body{
     line-height: 1.5;
 }
 
-/* footer style */
 
-.footer-style {
-    background-color: var(--navy-blue)
-}
-
-.footer-paragraph {
-    line-height: 1.5;
-    color: #f4f4fd;
-    letter-spacing: 0.02em;
-}
-
-
-.studiologo2{
-    color: var(--cloud);
-}
-
-.Qoutes{
-    color: var(--cloud);
-}
-
-.services{
-    color: var(--navy-blue);
-}
 
 /* Porfolio pages */
 
@@ -265,4 +243,27 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/* footer style */
+
+.footer{
+    background-color: #2e2f42;
+    
+}
+
+.footer-paragraph {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
+
+
+.studiologo2{
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.Qoutes{
+    color: #f4f4fd;
 }
