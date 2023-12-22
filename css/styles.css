@@ -258,6 +258,9 @@ body{
     letter-spacing: 0.02em;
 }
 
+.logo{
+    text-decoration: none;
+}
 
 .studiologo2{
     color: #4d5ae5;
