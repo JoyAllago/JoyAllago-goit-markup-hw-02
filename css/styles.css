@@ -255,16 +255,18 @@ body{
 
 .logo{
     text-decoration: none;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
 }
 
 .logo span.weblogo,
 .logo span.studio2{
     text-decoration: none;
-    color: #f4f4fd;
+    color: var(--cloud);
 }
 
 .footer{
-    background-color: #2e2f42;
+    background-color: var(--navy-blue);
 }
 
 .footer-paragraph{
