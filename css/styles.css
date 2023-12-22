@@ -258,15 +258,19 @@ body{
     letter-spacing: 0.02em;
 }
 
-.logo-link{
+.footer-link{
     text-decoration: none;
 }
 
-.span-well{
+.footer-link span{
+    text-decoration: none;
+    color:#f4f4fd;
+}
+.studiologo2{
     color: #4d5ae5;
     text-decoration: none;
 }
 
-.logo-link span{
+.Qoutes{
     color: #f4f4fd;
 }
