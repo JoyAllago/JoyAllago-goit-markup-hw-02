@@ -247,25 +247,26 @@ body{
 
 /* footer style */
 
-.footer{
-    background-color: #2e2f42;
-    
+.logo{
+    text-decoration: none;
 }
 
-.footer-paragraph {
+.logo span.weblogo,
+.logo span.studio2{
+    text-decoration: none;
+    color: #f4f4fd;
+}
+
+.footer{
+    background-color: #2e2f42;
+}
+
+.footer-paragraph{
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
 
-.footer-link{
-    text-decoration: none;
-}
-
-.footer-link span{
-    text-decoration: none;
-    color:#f4f4fd;
-}
 .studiologo2{
     color: #4d5ae5;
     text-decoration: none;
