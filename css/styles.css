@@ -227,7 +227,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
+    color: var(--iris);
     background-color: var(--cloud);
 }
 
@@ -242,11 +242,11 @@ body{
     color: var(--white);
 }
 
-.porfolio-page{
+.porfolio-list{
    list-style: none;
 }
 
-.porfolio-color{
+.porfolio-link{
     text-decoration: none;
 }
 
