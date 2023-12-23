@@ -67,7 +67,7 @@ body{
 
 .link{
     text-decoration: none;
-    font-weight: bold;
+   
 }
   
 
@@ -222,18 +222,13 @@ body{
     color: var(--white);
 }
 
-.porfolio-list{
+li{
    list-style: none;
 }
 
-.porfolio-link{
-    text-decoration: none;
-}
-
-.portfolio-link img[src^="./images"][src$=".jpeg"],
-.portfolio-link img[src^="./images"][src$=".jpg"] {
-  width: 360px;
-}
+/* .porfolio-link{
+    text-decoration: none; 
+} */
 
 .portfolio-services{
     font-weight: 500;
