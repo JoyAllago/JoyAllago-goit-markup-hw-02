@@ -206,16 +206,17 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     color: var(--iris);
     background-color: var(--cloud);
+    cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus{
     color: var(--white);
     background-color: var(--ocean);
-    cursor: pointer;
+    
 }
 
 .active-filter{
@@ -235,9 +236,9 @@ li{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-transform: lowercase;
-    text-decoration: none;
+    color: var(--navy-blue);
+    /* text-transform: lowercase;
+    text-decoration: none; */
 }
 
 .portfolio-category{
