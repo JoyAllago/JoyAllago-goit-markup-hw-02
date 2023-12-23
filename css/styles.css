@@ -25,7 +25,7 @@ body{
  /* logo */
 
 .logolist{
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -264,6 +264,6 @@ li{
 }
 
 .studiologo{
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
