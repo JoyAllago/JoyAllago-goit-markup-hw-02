@@ -68,17 +68,15 @@ body{
 
 /* logo */
 
-
 .address-style{
     font-style: normal;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .contacts-color{
     color: #434455;
-    text-decoration: none;
 }
 
 .contacts-color:hover,
