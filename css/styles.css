@@ -249,11 +249,11 @@ li{
     text-decoration: none;
 }
 
-.logo span.weblogo,
+/* .logo span.weblogo,
 .logo span.studio{
     text-decoration: none;
     color: var(--cloud);
-}
+} */
 
 .footer-style{
     background-color: var(--navy-blue);
@@ -267,6 +267,5 @@ li{
 
 .studiologo{
     color: #4d5ae5;
-    text-decoration: none;
 }
 
