@@ -24,7 +24,7 @@ body{
 
  /* logo */
 
-.logo{
+.logolist{
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -32,10 +32,6 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-}
-
-.logolist{
-    color: #4d5ae5; /* Css variable for color */
 }
 
 .inside-logo{
@@ -254,7 +250,7 @@ li{
 }
 
 .logo span.weblogo,
-.logo span.studio2{
+.logo span.studio{
     text-decoration: none;
     color: var(--cloud);
 }
