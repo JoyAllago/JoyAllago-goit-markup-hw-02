@@ -52,7 +52,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .link-style:hover,
@@ -259,7 +259,7 @@ li{
     color: var(--cloud);
 }
 
-.footer{
+.footer-style{
     background-color: var(--navy-blue);
 }
 
@@ -269,11 +269,8 @@ li{
     letter-spacing: 0.02em;
 }
 
-.studiologo2{
+.studiologo{
     color: #4d5ae5;
     text-decoration: none;
 }
 
-.Qoutes{
-    color: #f4f4fd;
-}
