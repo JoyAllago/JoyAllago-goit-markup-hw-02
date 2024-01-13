@@ -1,17 +1,18 @@
 :root{
-        --iris: #4d5ae5;
-        --ocean: #404bbf;
-        --navy-blue: #2e2f42;
-        --green: ##31d0aa;
-        --slate: #434455;
-        --light-slate: #8e8f99;
-        --cornflower: #e7e9fc;
-        --cloud: #f4f4fd;
-        --white: #ffffff;
-        --dairy: #fcfcfc;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: ##31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --white: #ffffff;
+    --dairy: #fcfcfc;
 
 }
-
+ 
+/* main page */
 body{
     font-family: Roboto, sans-serif;   
     font-weight: 800;
@@ -38,17 +39,38 @@ body{
     color: #2e2f42;
 }
 
-.list{
+.studiologo{
+    color: #f4f4fd;
+}
+ /* logo */
+
+/* Menu/Navigation */
+.header-list{
     list-style: none;
 }
 
-.link-style{
+.header-link 
+.link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     /* text-decoration: none; */
+}
+
+.header-contacts-color
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    /* text-decoration: none; */
+}
+
+.header-contacts-style{
+    font-style: normal;
 }
 
 .link-style:hover,
@@ -62,27 +84,9 @@ body{
 
 .link{
     text-decoration: none;
-   
-}
-  
-
-/* logo */
-
-.address-style{
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
-.contacts-color{
-    color: #434455;
-}
 
-.contacts-color:hover,
-.contacts-color:focus{
-    color: var(--ocean);
-}
 
 /* Section 1 */
 
@@ -91,34 +95,36 @@ body{
 }
 
 .section-title{
+   text-transform: uppercase;
    font-size: 56px;
+   font-weight: 700;
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
-   color: #ffffff;
+   color: var(--white);
 }
 
-.first-section-button{
-    background-color: #4d5ae5;
+.button {
+    background: #4d5ae5;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
-}
-
-  .first-section-button:hover,
-  .first-section-button:focus {
-    background-color: #404bbf;
-  }
-  .first-section-button {
+    color: var(--white);
     cursor: pointer;
-  }
-
+}
+  
+.button:hover {
+    background-color: #404bbf;
+}
+.button:focus {
+    background-color: #404bbf;
+}
 /* section 2 class */
 
-.section-two-headers{
+.section-two-headers,
+.employees-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -126,27 +132,20 @@ body{
     color: #2e2f42;
 }
 
-.section-two-paragraphs{
+.section-two-paragraphs,
+.employees-position{
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
 
 }
 
-.section-title{
-   background-color: #2e2f42;
-   font-size: 56px;
-   line-height: 1.07;
-   text-align: center;
-   letter-spacing: 0.02em;
-   color: #ffffff;
-}
-
-
 /* section 3 class */
 
-.section-third-headers{
+.third-section-headers,
+.fourth-section-headers{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -160,99 +159,12 @@ body{
     background-color: #f4f4fd;
 }
 
-.fourth-section-header{
-    background-color: #f4f4fd;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.employees-color {
+.list .employees-color {
     background-color: #ffffff
 }
 
-.employees-name{
-    color:#2e2f42;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    font-size: 20px;
-    line-height: 1.2;
-}
 
-.employees-position {
-    font-size: 16px;
-    color: #434455;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-
-
-
-/* Porfolio pages */
-
-
-.filter-button{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--iris);
-    background-color: var(--cloud);
-    cursor: pointer;
-}
-
-.filter-button:hover,
-.filter-button:focus{
-    color: var(--white);
-    background-color: var(--ocean);
-    
-}
-
-.active-filter{
-    color: var(--white);
-}
-
-li{
-   list-style: none;
-}
-
-/* .porfolio-link{
-    text-decoration: none; 
-} */
-
-.portfolio-services{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    /* text-transform: lowercase;
-    text-decoration: none; */
-}
-
-.portfolio-category{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* footer style */
-
-.logo{
-    text-decoration: none;
-}
-
-/* .logo span.weblogo,
-.logo span.studio{
-    text-decoration: none;
-    color: var(--cloud);
-} */
-
+/* footer */
 .footer-style{
     background-color: var(--navy-blue);
 }
@@ -262,8 +174,5 @@ li{
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
-
-.studiologo{
-    color: #f4f4fd;
-}
+/* footer */
 
