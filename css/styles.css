@@ -40,7 +40,7 @@ body{
 }
 
 .studiologo{
-    color: #f4f4fd;
+    color: #2e2f42;
 }
  /* logo */
 
@@ -49,8 +49,8 @@ body{
     list-style: none;
 }
 
-.header-link 
-.link{
+.header-links 
+.header0link-style{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -73,8 +73,8 @@ body{
     font-style: normal;
 }
 
-.link-style:hover,
-.link-style:focus{
+.header-link-style:hover
+.header-link-style:focus{
     color: var(--ocean);
 }
 
@@ -176,3 +176,31 @@ body{
 }
 /* footer */
 
+/* portfolio */
+
+/* hw2 */
+
+.services{
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.filter-button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #f4f4fd;
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus{
+    color: #ffffff;
+    background-color: #404bbf;
+}
